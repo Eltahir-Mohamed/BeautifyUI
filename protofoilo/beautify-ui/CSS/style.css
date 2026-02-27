@@ -2,8 +2,8 @@ html{
 }
 :root{
     /* un == uniqe */
-   --azure--:rgb(15, 17, 26);
-    --unblack--:rgb(240, 255, 255);
+   --azure--:rgb(240, 255, 255);
+    --unblack--:rgb(15, 17, 26);
     --black--:black;
     --white--:white;
     --sheer-white-03--: rgba(240, 255, 255, 0.09) ;
