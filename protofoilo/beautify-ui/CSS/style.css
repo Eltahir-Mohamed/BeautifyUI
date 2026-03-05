@@ -49,7 +49,7 @@ body{
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--unblue--);
-  border-radius: 5px; 
+  border-radius: 1px; 
   transition: 500ms;
 }
 
