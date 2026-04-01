@@ -73,6 +73,7 @@ html::-webkit-scrollbar-track {
     -moz-user-select: none;
     -o-user-select:none;
     user-select: none;
+    text-transform: capitalize;
     scroll-behavior: smooth;
     scroll-padding: 2rem;
 }
