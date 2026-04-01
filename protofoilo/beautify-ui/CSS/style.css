@@ -1388,7 +1388,7 @@ padding: .5rem;
     grid-area: projects;
     position: relative;
     display: flex;
-    min-height: 100vh;
+    min-height: 100dvh;
     align-items: center;
     justify-content: space-around;
     background-color: lightseagreen;
@@ -1397,7 +1397,7 @@ padding: .5rem;
 
 .projects{
     grid-area: projects;
-    min-height: 220vh;
+    min-height: 220dvh;
     min-width: 100dvw;
     max-width: 100dvw;
     overflow-x:hidden ;
@@ -1475,7 +1475,7 @@ width: 10px;
     top:0%;
     left:0%;
     width: 100dvw;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1650,7 +1650,7 @@ color: var(--unblue--);
 /* responsiveness */
 @media  screen and (min-width:1200px){   
 .projects{
-    height: 200vh;
+    height: 200dvh;
     position: relative;
     max-width: 100vw;
 }
@@ -2078,4 +2078,5 @@ text-transform: capitalize;
     background-color: var(--unblack--);
     color:var(--azure--);
 }
+
 }
