@@ -294,3 +294,57 @@ elzero.style.transition="1s ease 1s";
 // animate scripting
 // 
 // element.classlist.add("");
+
+let webGuide = document.querySelector(".web-guide");
+let wga = document.querySelector(".wga");
+
+wga.onclick=()=>{
+  webGuide.style.opacity="0";
+  
+  setTimeout(()=>{
+  webGuide.style.display="none";
+  },500)
+}
+
+
+let dotSlider = document.querySelector(".dot-slider");
+let d1 = document.querySelector(".d1");
+let d2 = document.querySelector(".d2");
+let d3= document.querySelector(".d3");
+let appst = document.querySelector(".apps");
+
+d1.onclick=()=>{
+  d1.style.width="30px";
+  d2.style.width="10px";
+  d3.style.width="10px";
+
+  appst.style.transform=" translateX(0px) scale(0.9)";
+  setTimeout(()=>{
+  appst.style.transform=" translateX(0px) scale(1)";
+
+  },300)
+}
+
+d2.onclick=()=>{
+  d2.style.width="30px";
+  d1.style.width="10px";
+  d3.style.width="10px";
+
+  appst.style.transform=" translateX(-360px) scale(0.9)";
+  setTimeout(()=>{
+  appst.style.transform=" translateX(-360px) scale(1)";
+
+  },300)
+}
+
+d3.onclick=()=>{
+  d3.style.width="30px";
+  d2.style.width="10px";
+  d1.style.width="10px";
+
+  appst.style.transform=" translateX(-720px) scale(0.9)";
+  setTimeout(()=>{
+  appst.style.transform=" translateX(-720px) scale(1)";
+
+  },300)
+}
