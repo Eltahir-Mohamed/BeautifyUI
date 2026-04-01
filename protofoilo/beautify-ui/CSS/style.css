@@ -1397,7 +1397,7 @@ padding: .5rem;
 
 .projects{
     grid-area: projects;
-    min-height: 220dvh;
+    min-height: 220vh;
     min-width: 100dvw;
     max-width: 100dvw;
     overflow-x:hidden ;
@@ -1450,9 +1450,9 @@ width: 10px;
 .web-pages{
     justify-self: start;
     align-self: flex-start;
-    width: 300dvw;
+    width: 300vw;
     flex-wrap: wrap;
-    height: 45%;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1460,7 +1460,7 @@ width: 10px;
 
 }
 .apps{
-    width:300dvw;
+    width:300vw;
     height:100%;
     display: flex;
     align-items: center;
