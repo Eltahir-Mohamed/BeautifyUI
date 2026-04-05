@@ -159,6 +159,8 @@ kevin.style.transition="1s ease";
 elzero.style.transition="1s ease";
 };
 
+a1.onclick();
+
 //about me end part scripting //
 
 //Graphics designs start part scripting //
